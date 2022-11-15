@@ -8,8 +8,8 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 public class Wget implements Runnable {
-    private static final String REGEX
-            = "^(https?|ftp|file)://[-a-zA-Z0-9+&@#/%?=~_|!:,.;]*[-a-zA-Z0-9+&@#/%=~_|]";
+    private static final String regex =
+            "^(https?|ftp|file)://[-a-zA-Z0-9+&@#/%?=~_|!:,.;]*[-a-zA-Z0-9+&@#/%=~_|]";
 
     private final String url;
     private final int speed;
@@ -23,7 +23,7 @@ public class Wget implements Runnable {
         if (st.length < 2) {
             throw new IllegalArgumentException("Arguments length < 2 or wrong arguments");
         }
-        if (!st[0].matches(REGEX)) {
+        if (!st[0].matches(regex)) {
             throw new IllegalArgumentException(String.format("Wrong url %s", st[0]));
         }
         if (Integer.parseInt(st[1]) < 0) {
@@ -42,9 +42,9 @@ public class Wget implements Runnable {
             int download = 0;
             byte[] data = new byte[1024];
             while ((readBytes = input.read(data, 0, 1024)) != -1) {
+                long downloadTime = System.currentTimeMillis() - start;
                 download += readBytes;
                 if (speed < download) {
-                    long downloadTime = System.currentTimeMillis() - start;
                     if (downloadTime > 1000) {
                         Thread.sleep(1000 - downloadTime);
                     }
@@ -61,7 +61,6 @@ public class Wget implements Runnable {
             e.printStackTrace();
         } catch (InterruptedException e) {
             e.printStackTrace();
-            Thread.currentThread().interrupt();
         }
     }
 
