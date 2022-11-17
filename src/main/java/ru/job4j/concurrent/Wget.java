@@ -42,9 +42,9 @@ public class Wget implements Runnable {
             int download = 0;
             byte[] data = new byte[1024];
             while ((readBytes = input.read(data, 0, 1024)) != -1) {
-                long downloadTime = System.currentTimeMillis() - start;
                 download += readBytes;
                 if (speed < download) {
+                    long downloadTime = System.currentTimeMillis() - start;
                     if (downloadTime > 1000) {
                         Thread.sleep(1000 - downloadTime);
                     }
@@ -61,6 +61,7 @@ public class Wget implements Runnable {
             e.printStackTrace();
         } catch (InterruptedException e) {
             e.printStackTrace();
+            Thread.currentThread().interrupt();
         }
     }
 
