@@ -3,7 +3,7 @@ package ru.job4j.threads.threadlocal;
 public class ThreadLocalDemo {
     static ThreadLocal<String> tl = new ThreadLocal<>();
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException{
         Thread first = new FirstThread();
         Thread second = new SecondThread();
         tl.set("Это поток main");
