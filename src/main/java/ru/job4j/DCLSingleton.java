@@ -10,8 +10,7 @@ public class DCLSingleton {
             synchronized (DCLSingleton.class) {
                 localInst = inst;
                 if (localInst == null) {
-                    inst = localInst;
-                    localInst = new DCLSingleton();
+                    inst = localInst = new DCLSingleton();
                 }
             }
         }
