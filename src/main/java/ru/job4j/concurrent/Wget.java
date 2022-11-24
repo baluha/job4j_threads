@@ -8,8 +8,8 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 public class Wget implements Runnable {
-    private static final String regex =
-            "^(https?|ftp|file)://[-a-zA-Z0-9+&@#/%?=~_|!:,.;]*[-a-zA-Z0-9+&@#/%=~_|]";
+    private static final String REGEX
+            = "^(https?|ftp|file)://[-a-zA-Z0-9+&@#/%?=~_|!:,.;]*[-a-zA-Z0-9+&@#/%=~_|]";
 
     private final String url;
     private final int speed;
@@ -23,7 +23,7 @@ public class Wget implements Runnable {
         if (st.length < 2) {
             throw new IllegalArgumentException("Arguments length < 2 or wrong arguments");
         }
-        if (!st[0].matches(regex)) {
+        if (!st[0].matches(REGEX)) {
             throw new IllegalArgumentException(String.format("Wrong url %s", st[0]));
         }
         if (Integer.parseInt(st[1]) < 0) {
