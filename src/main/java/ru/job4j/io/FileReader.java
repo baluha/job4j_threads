@@ -4,6 +4,7 @@ import java.io.*;
 import java.util.function.Predicate;
 
 public final class FileReader {
+
     private final File file;
 
     public FileReader(File file) {
@@ -22,8 +23,7 @@ public final class FileReader {
         StringBuilder output = new StringBuilder();
         try (BufferedInputStream i = new BufferedInputStream(new FileInputStream(file))) {
             int data;
-            while ((data = i.read())>0)
-            {
+            while ((data = i.read()) != -1) {
                 if (pred.test((char) data)) {
                     output.append((char) data);
                 }
