@@ -28,20 +28,18 @@ public class AccountStorage {
     }
 
     public synchronized boolean delete(int id) {
-        if (accounts.containsKey(id)) {
-            accounts.remove(id);
-            return true;
-        }
-        return false;
+            return accounts.remove(id) != null;
     }
 
     public synchronized Optional<Account> getById(int id) {
-        return Optional.of(accounts.get(id));
+        return accounts.get(id) != null
+                ? Optional.of(accounts.get(id)) : Optional.empty();
+
     }
 
     public synchronized boolean transfer(int fromId, int toId, int amount) {
         Account src = getById(fromId).orElseThrow(() -> new IllegalArgumentException("Account id " + fromId + " not found"));
-        Account dest = getById(fromId).orElseThrow(() -> new IllegalArgumentException("Account id " + toId + " not found"));
+        Account dest = getById(toId).orElseThrow(() -> new IllegalArgumentException("Account id " + toId + " not found"));
         if (src.amount() >= amount) {
             update(new Account(src.id(), src.amount() - amount));
             update(new Account(dest.id(), dest.amount() + amount));
