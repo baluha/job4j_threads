@@ -49,6 +49,6 @@ class SimpleBlockingQueueTest {
             throw new RuntimeException(e);
         }
         assertThat(value.get()).isEqualTo(9);
-        assertThat(lst).isEqualTo(List.of(0, 1, 2, 3, 4, 5, 6, 7, 8 ,9));
+        assertThat(lst).isEqualTo(List.of(0, 1, 2, 3, 4, 5, 6, 7, 8, 9));
     }
 }
