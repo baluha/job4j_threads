@@ -24,11 +24,8 @@ public class ParallelMergeSort extends RecursiveTask<int[]> {
         // создаем задачи для сортировки частей
         ParallelMergeSort leftSort = new ParallelMergeSort(array, from, mid);
         ParallelMergeSort rightSort = new ParallelMergeSort(array, mid + 1, to);
-        // производим деление.
-        // оно будет происходить, пока в частях не останется по одному элементу
         leftSort.fork();
         rightSort.fork();
-        // объединяем полученные результаты
         int[] left = leftSort.join();
         int[] right = rightSort.join();
         return MergeSort.merge(left, right);
