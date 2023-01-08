@@ -4,3 +4,8 @@ Thread без общих ресурсов
 Wait, Notify, NotifyAll
 Non Blocking Algoritm
 Пулы
+Вносим изменения в коммит
+Объеденим коммиты
+1
+2
+3

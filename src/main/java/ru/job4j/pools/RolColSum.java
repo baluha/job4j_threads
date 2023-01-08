@@ -17,11 +17,10 @@ public class RolColSum {
     public static Sums[] asyncSum(int[][] matrix) {
         int length = matrix.length;
         Sums[] sums = new Sums[length];
-        CompletableFuture.supplyAsync(() -> {
+        CompletableFuture.runAsync(() -> {
                     for (int i = 0; i < length; i++) {
                         sums[i] = getSum(matrix, i);
                     }
-                    return null;
                 }
                 );
         return sums;
