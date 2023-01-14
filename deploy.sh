@@ -1,2 +1,1 @@
-"Какой то текст"
-"merge"
+#deploy script
