@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a015dcb8-a98b-463c-b239-c9a745672e06" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkstyle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fileName" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/CASCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/Cache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/Count.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/CountBarrier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/DCLSingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/MergeSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/ParallelMergeSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/buffer/ParallelSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/cache/Base.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/cache/Cache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/cache/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/cache/OptimisticException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/cash/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/cash/AccountStorage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/concurrent/ConcurrentOutput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/concurrent/ConsoleProgress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/concurrent/ParallelStreamExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/concurrent/ThreadSleep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/concurrent/ThreadState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/concurrent/ThreadStop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/concurrent/Wget.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/io/FileReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/io/FileWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/io/ParseFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/linked/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/pools/EmailNotification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/pools/ParallelSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/pools/RolColSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/pools/Sums.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/pools/ThreadPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/pools/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/ref/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/ref/UserCache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/synch/SimpleBlockingQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/synch/SingleLockList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/threads/threadlocal/FirstThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/threads/threadlocal/SecondThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/threads/threadlocal/ThreadLocalDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/job4j/CASCountTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/job4j/cash/AccountStorageTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/job4j/pools/ParallelSearchTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/job4j/pools/RolColSumTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/job4j/synch/SimpleBlockingQueueTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/job4j/synch/SingleLockListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system.properties" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2KcZLuDPNjiuaM8MiAZuDFYQkfM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/projects/job4j_threads"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a015dcb8-a98b-463c-b239-c9a745672e06" name="Changes" comment="" />
+      <created>1674275781008</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674275781008</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
