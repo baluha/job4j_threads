@@ -9,5 +9,6 @@
         <module name="job4j_threads" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="17" />
   </component>
 </project>
